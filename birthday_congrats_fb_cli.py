@@ -92,8 +92,4 @@ if __name__ == "__main__":
     html_block = get_html_block(login_fb, password_fb)
     number_to_congrat = choice_to_congrat(str(html_block))
     congratulate(number_to_congrat, congrat_text, login_fb, password_fb)
-    
-    #telegram_index = 0
-    #users_for_congratulation = get_users_for_congratulation()
-    #print(users_for_congratulation)
-    #congratulate(number_to_congrat, congrat_text)
+
