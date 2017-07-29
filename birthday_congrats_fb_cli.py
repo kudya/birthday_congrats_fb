@@ -85,8 +85,8 @@ def congratulate(number_to_congrat, congrat_text, login_fb, password_fb):
 
 
 if __name__ == "__main__":
-    login_fb = 'anton.kurdin@gmail.com'
-    password_fb = 'Chehov11@'
+    login_fb = ''
+    password_fb = ''
     congrat_text = 'Happy B-Day!!! From Learnpython with love :)'
     
     html_block = get_html_block(login_fb, password_fb)
